@@ -1,8 +1,18 @@
 console.log('------------- # 4');
-console.log(2 + 2);
-console.log(5 - 3);
-console.log(3 * 3);
-console.log(6 / 2);
+let a = 5;
+let b = 5;
+
+let addition = a + b;
+console.log(addition);
+
+let subtraction = a - b;
+console.log(subtraction); 
+
+let multiplication = a * b;
+console.log(multiplication);
+
+let division = a / b;
+console.log(division);
 
 console.log('------------- # 5');
 
@@ -21,7 +31,7 @@ console.log('------------- # 7');
 function getMarkInfo(condition) {
     if (condition === 10) {
         console.log('У вас максимальный балл');
-    } else if (condition < 10) {
+    } else if (condition != 10) {
         console.log('У вас средний балл');
     }
 }
